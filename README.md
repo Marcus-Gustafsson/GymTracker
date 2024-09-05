@@ -1,7 +1,8 @@
 # GymTracker
 
-GymTracker is a web-based application, built during a university project, that utilizes pre-trained TensorFlow.js pose detection models to track your movements and help you optimize your workouts.
-Prototype forceplates was also used in the testing and building of the project, but the application works w/o forceplates aswell.
+GymTracker is a web-based application, developed as part of a university project, that uses pre-trained TensorFlow.js pose detection models to track your movements and help optimize your workouts.
+
+During the development and testing phase, prototype force plates were also integrated to monitor force distribution during selected exercises. However, the application is fully functional without the use of force plates.
 
 ## Showcase
 ![](https://github.com/Marcus-Gustafsson/GymTracker/blob/master/Photos_XE12nkBTzK.gif)
