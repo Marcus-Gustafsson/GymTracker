@@ -2,6 +2,10 @@
 
 Try our GymTracker application and get inspired with what you can do with pose-detection models in the gym!
 
+
+## Showcase
+
+
 -------------------------------------------------------------------------------
 
 ## How to run the application
