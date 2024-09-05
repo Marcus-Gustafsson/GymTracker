@@ -4,6 +4,7 @@ GymTracker is a web-based application, built during a university project, that u
 Prototype forceplates was also used in the testing and building of the project, but the application works w/o forceplates aswell.
 
 ## Showcase
+![](https://github.com/Marcus-Gustafsson/GymTracker/blob/master/Photos_XE12nkBTzK.gif)
 
 ## Demo
 You can run a live demo at:  
