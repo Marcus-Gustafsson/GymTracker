@@ -1,55 +1,74 @@
 # GymTracker
 
-Try our GymTracker application and get inspired with what you can do with pose-detection models in the gym!
+GymTracker is a web-based application that utilizes pre-trained TensorFlow.js pose detection models to track your movements and help you optimize your workouts. Get inspired by what AI and pose detection can do to improve your gym sessions!
 
+## Features
+- **Real-time pose detection**: Leverage the power of machine learning to monitor and analyze your gym exercises.
+- **Compatible with major browsers**: Runs locally on your machine using Node.js and Yarn.
+- **Customizable models**: Use different TensorFlow.js models to explore pose detection capabilities.
 
 ## Showcase
 
+## Demo
+You can run a live demo at:  
+`localhost:1234/?model=movenet`
 
--------------------------------------------------------------------------------
+## Getting Started
 
-## How to run the application
-If you want to run the application locally, you need to set up the environment on your computer
+### Prerequisites
+Before you start, make sure the following software is installed on your computer:
+- [Node.js](https://nodejs.org/en/download)
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+- [Python](https://www.python.org/downloads/)
 
-First make sure you have node.js, yarn and python installed on your computer.
-
-To check if you already have yarn, python and node.js installed on your computer type these commands one by one in the Terminal/Command-line:
-
-yarn -v 
-
-python -v
-
+To check if you already have these installed, run the following commands in your Terminal/Command Prompt:
+```bash
 node -v
+yarn -v
+python -V
+```
 
-If the software is not found or recognized follow the links below for installation
+Installation
+Follow these steps to set up and run the GymTracker application locally:
 
-To install node.js:
-https://nodejs.org/en/download
+### 1. Clone the repository:
 
-To install yarn:
-https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
+```bash
+git clone https://github.com/your-username/GymTracker.git
+cd GymTracker/GymTracker_app/Application
+```
+### 2. Clear the existing cache and modules (if any):
 
-To install python:
-https://www.python.org/downloads/
+```bash
+rm -rf .cache dist node_modules
+Build dependencies:
+```
+### 3. Build dependencies:
+```bash
+yarn build-dep
+```
+### 4. Install all project dependencies:
 
-Afterwards follow these steps:
+```bash
+yarn
+```
+### 5. Start the demo server:
 
-1. Go to the 'Application' folder, e.g. `cd GymTracker/GymTracker_app/Application`
+```bash
+yarn watch
+```
 
-2. Remove cache etc. `rm -rf .cache dist node_modules`
+The application will be running at http://localhost:1234/?model=movenet.
 
-3. Build dependency. `yarn build-dep`
+### Troubleshooting
+macOS
+If you encounter issues during installation, try removing the following files from the Application folder:
 
-4. Install dependencies. `yarn`
+```bash
+rm yarn.lock package-lock.json node_modules
+```
 
-5. Run the demo. `yarn watch`
+### Windows/Linux
+For Windows or Linux users, you may need to install Visual Studio with the "Desktop development with C++" workload enabled. You can follow the instructions here: Visual Studio C++ installation guide.
+https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170
 
-6. The demo runs at `localhost:1234/?model=movenet`
-
-## Errors mac:
-If you encounter errors during step 5 and you have a mac you can try to remove the yarn.lock, package-lock.json and noduel_module file in Application folder.
-
-## Errors windows/linux:
-Some users need to install "Visual Studio" with the workload "Desktop development with C++" included.
-
-One way to do so is to follow the steps in the following link: https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170
