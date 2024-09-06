@@ -7,10 +7,6 @@ During the development and testing phase, prototype force plates were also integ
 ## Showcase
 ![](https://github.com/Marcus-Gustafsson/GymTracker/blob/master/Photos_XE12nkBTzK.gif)
 
-## Demo
-You can run a live demo at:  
-`localhost:1234/?model=movenet`
-
 ## Getting Started
 
 ### Prerequisites
