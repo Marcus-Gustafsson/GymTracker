@@ -66,3 +66,8 @@ rm yarn.lock package-lock.json node_modules
 For Windows or Linux users, you may need to install Visual Studio with the "Desktop development with C++" workload enabled. 
 You can follow the instructions here: https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170
 
+
+### Credits and Resources
+All credits for resources used in this project go to their original creators. This project is for educational and portfolio purposes only, and will not be used for commercial purposes.
+
+If you are the author of any of the used assets and would like them removed or credited differently, please contact me.
