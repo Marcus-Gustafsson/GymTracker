@@ -4,6 +4,8 @@ GymTracker is a web-based application, developed as part of a university project
 
 During the development and testing phase, prototype force plates were also integrated to monitor force distribution during selected exercises. However, the application is fully functional without the use of force plates.
 
+Developed by: Marcus Gustafsson, Stephanie Källberg, Saad Ezeldin, Nnamdi Ronald Onuigbo, and Rami Jbara.
+
 ## Showcase
 ![](https://github.com/Marcus-Gustafsson/GymTracker/blob/master/Photos_XE12nkBTzK.gif)
 
